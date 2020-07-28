@@ -1,0 +1,284 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: lato;
+}
+.center{
+	max-width: 1100px;
+	padding: 0 2%;
+	margin: 0 auto;
+}
+.clear{
+	clear: both;
+}
+header{
+	background-color: #3665af;
+	padding: 11px 0;
+}
+div.logo{
+	float: left;
+	color: white;
+}
+.logo h2{
+	font-weight: normal;
+	font-size: 42px;
+	margin-left: 25px;
+}
+
+form.form-login{
+	float: right;
+}
+.form-login .form-element{
+	display: inline-block;
+	margin-right: 15px;
+}
+.form-element p{
+	font-size: 12px;
+	color: white;
+}
+.h5 h5{
+	color: #9cb4d8;
+	font-size: 13px;
+	margin-left: 175px;
+	margin-top: 2px;
+}
+.form-element input[type=email], .form-element input[type=password]{
+	margin-top: 4px;
+	border: 1px solid black;
+	height: 22px;
+	padding-left: 3px;
+	background-color: #e6efff;
+}
+.form-element input[type=submit]{
+	cursor: pointer;
+	border: 1px solid #1049a1;
+	background-color: #1969e5;
+	color: white;
+	padding: 3px 5px;
+	width: 48px;
+}
+.form-element input[type=submit]:hover{
+	background-color: #215ab2;
+}
+section.main{
+	background: linear-gradient(white, #D3D8E8);
+	padding: 30px 10px;
+	height: 600px;
+}
+section p{
+	font-size: 21px;
+	width: 430px;
+	color: #021f52;
+	margin-left: 20px;
+}
+.img-pessoas{
+	float: left;
+	width: 60%;
+}
+.img-pessoas img{
+	padding-top: 10px;
+	max-width: 100%;
+}
+.abrir-conta{
+	width: 40%;
+	float: left;
+	margin-top: -90px;
+}
+.abrir-conta h2{
+	color: black;
+	font-size: 40px;
+	padding-left: 8px;
+	color: #3a3b3d;
+}
+.abrir-conta h3{
+	font-size: 19px;
+	color: black;
+	margin-top: 8px;
+	font-weight: normal;
+	padding-left: 8px;
+	color: #3a3b3d;
+}
+form.criar-conta{
+	margin-top: 10px;
+
+}
+.w50{
+	width: 50%;
+	float: left;
+	padding: 0 5px;
+}
+.w100{
+	width: 100%;
+	float: left;
+	padding: 0 5px;
+}
+form.criar-conta input{
+	width: 100%;
+	margin-top: 10px;
+}
+form.criar-conta input[type=email],
+form.criar-conta input[type=text],
+form.criar-conta input[type=password]{
+	height: 40px;
+	padding-left: 10px;
+	border: 1px solid #a5dcff;
+	font-size: 20px;
+	border-radius: 8px;
+}
+
+form.criar-conta input[type=submit]{
+	height: 40px;
+	background: linear-gradient(#67ae55, #578843);
+	color: white;
+	cursor: pointer;
+	border: 0.5px solid black;
+	max-width: 200px;
+	font-size: 19px;
+	border-radius: 8px;
+	margin-top: 20px;
+}
+form .w100 h2{
+	color: #3a3b3d;
+	font-weight: normal;
+	font-size: 17px;
+	margin-top: 10px;
+	margin-left: -10px;
+}
+form select.nascimento{
+	float: left;
+	margin-top: 5px;
+	padding: 4px;
+}
+.input-radio{
+	float: left;
+	margin: 9px 5px;
+}
+.input-radio h2{
+	display: inline-block;
+	padding-left: 20px;
+}
+.input-radio input[type=radio]{
+	width: auto !important;
+	display: inline-block;
+	max-width: 600px !important;
+}
+.w100 h4{
+	color: #3a3b3d;
+	font-weight: normal;
+	font-size: 11px;
+	margin-top: 50px;
+	margin-left: 0;
+	width: 300px;
+}
+section.linguas{
+	padding: 30px 0;
+	background-color: white;
+}
+section.linguas a{
+	padding-right: 25px;
+	font-size: 12px;
+	color: #368599;
+	text-decoration: none;
+}
+section.linguas a.selected-lingua{
+	color: #737373;
+
+}
+section.linguas .center{
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-bottom: 0px;
+	border-bottom: 1px solid #ccc;
+}
+
+@media screen and (max-width: 768px){
+	.logo{
+		width: 100%;
+		text-align: center;
+		float: none;
+	}
+	form.form-login{
+		margin-top: 17px;
+		float: none;
+		width: 100%;
+		text-align: center;
+		display: inline-block;
+	}
+	.form-login .form-element{
+		display: block;
+		margin: 5px 0;
+	}
+	.form-element p{
+		font-size: 12px;
+		color: white;
+	}
+	.form-element input[type=email], .form-element input[type=password]{
+		margin-top: 4px;
+		border: 1px solid black;
+		height: 22px;
+		padding-left: 3px;
+		background-color: #e6efff;
+		width: 100%;
+		max-width: 300px;
+	}
+	.form-element input[type=submit]{
+		padding: auto 0;
+		width: 140px;
+		float: center;
+	}
+	.h5 h5{
+		display: inline-block;
+		float: center;
+		margin: auto 0;
+	}
+	.img-pessoas{
+		display: none;
+	}
+	.abrir-conta{
+		padding-top: 60px;
+		width: 100%;
+		max-width: 700px;
+	}
+	section p{
+		display: none;
+	}
+	.abrir-conta h2, h3{
+		color: black;
+		width: 100%;
+		text-align: center;
+		font-size: 25px;
+		padding-left: 8px;
+		color: #3a3b3d;
+	}
+	.w100 h4{
+		color: #3a3b3d;
+		font-weight: normal;
+		font-size: 11px;
+		margin-top: 10px;
+		margin-left: 0;
+		width: 100%;
+		display: inline-block;
+	}
+	.input-radio input[type=radio]{
+		width: 100%;
+		display: inline-block;		
+		float: center;
+		
+	}
+	form.criar-conta{
+		text-align: center;
+	}
+	.nascimento{
+		text-align: center;
+		float: center;
+	}
+	.abrir-conta .data{
+		text-align: left;
+		padding-left: 15px;
+	}
+	form .w100 h2{
+		font-size: 15px;
+	}
+
+}	
